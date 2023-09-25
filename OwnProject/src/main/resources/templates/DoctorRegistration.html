@@ -1,0 +1,18 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+	
+	<head>
+		<title>Doctors Web Crud Operations</title>
+	</head>
+	
+	<body>
+		
+		<form th:action="@{/doc/save}" method="post">
+			doctor id:<input type="text" name="doctorId"/>
+			doctor Name :<input type="text" name="doctorName">
+			doctor Deparment :<input type="text" name="doctorDepatment"/>
+			doctor hospital Name :<input type="text" name="doctorhospitalName"/>
+			
+			<input type="submit" value="register"/>                          
+		</form>
+	</body>
+</html>

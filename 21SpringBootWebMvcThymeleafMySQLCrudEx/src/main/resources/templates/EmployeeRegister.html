@@ -1,0 +1,23 @@
+<html xmlns:th="https://wwww.thymeleaf.org/">
+
+<head>
+	<title>Welcome to Employee Curd </title>
+</head>
+
+<body>
+	<h2>Curd Web with Sring boot Java Thymleaf</h2>
+	<form th:action="@{/emp/save}" method="POST">
+		<pre>
+			Name:<input type="text" name="employeeName"/>
+			Salary:<input type="text" name="employeeSalary"/>
+			EmailID :<input type="text" name="employeEmailId"/>
+			EmployeeGender:<input type="text" name="employeeGender"/>
+		   <button type="submit">Create</button>
+			   </pre>
+	</form>
+
+
+
+</body>
+
+</html>

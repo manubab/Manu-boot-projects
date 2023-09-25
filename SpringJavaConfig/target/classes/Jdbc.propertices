@@ -1,0 +1,2 @@
+driver=ORACLE;
+url=jdbc:oracle;
